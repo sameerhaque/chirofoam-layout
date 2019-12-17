@@ -67,7 +67,7 @@ export default (props) => {
 					Try the world-class rated mattress with free continetal USA and Canada-wide delivery, and a 100-night sleep trial
 				</p>
 				<Row className="">
-					<Col sm="6" className="pr-4 border-right">
+					<Col sm="6" className="pr-5 border-right">
 						<img src={product1} alt="Product1" width="100%" />
 						<h3 className="text-right">THE ORIGINAL CHIROFOAM MATTRESS - LUXURY FIRM</h3>
 						<p className="text-right" style={{color:'#243B6B'}}>
@@ -87,7 +87,7 @@ export default (props) => {
 						</p>
 					</Col>
 					
-					<Col sm="6" className="pl-4">
+					<Col sm="6" className="pl-5">
 						<img src={product2} alt="Product2" width="100%" />
 						<h3>THE CHIROFOAM XF MATTRESS - EXTRA FIRM</h3>
 						<p className="text-left" style={{color:'#243B6B'}}>
@@ -113,7 +113,7 @@ export default (props) => {
 			</Container>
 		</section>
 		
-		<section className="mt-4 mb-4 py-4" style={{backgroundColor:'#182951'}}>
+		<section className="mt-4 mb-4 py-5" style={{backgroundColor:'#182951'}}>
 			<Container>
 				<Row>
 					<Col sm="4" className="align-middle">
@@ -153,7 +153,7 @@ export default (props) => {
 									86%
 								  </Media>
 								  <Media body middle>
-									  Improved muscle recovery and/or relief in daliy experienced bed pain
+									  Improved muscle recovery and/or relief in daliy experienced back pain
 								  </Media>
 								</Media>
 								<Media >
