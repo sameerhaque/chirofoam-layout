@@ -26,10 +26,10 @@ const Header = (props) => {
 			<Collapse isOpen={isOpen} navbar>
 			  <Nav className="mr-auto ml-auto" navbar>
 				<NavItem>
-				  <NavLink href="/components/">ORIGINAL LUXURY FIRM</NavLink>
+				  <NavLink href="/original-luxury-firm/">ORIGINAL LUXURY FIRM</NavLink>
 				</NavItem>
 				<NavItem>
-				  <NavLink href="https://github.com/reactstrap/reactstrap">XF EXTRA FIRM</NavLink>
+				  <NavLink href="/xf-extra-firm/">XF EXTRA FIRM</NavLink>
 				</NavItem>
 				<NavItem>
 				  <NavLink href="https://github.com/reactstrap/reactstrap">OUR GUARENTEES</NavLink>
