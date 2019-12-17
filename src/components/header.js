@@ -38,7 +38,7 @@ const Header = (props) => {
 				  <NavLink href="https://github.com/reactstrap/reactstrap">REVIEWS</NavLink>
 				</NavItem>
 				<NavItem>
-				  <NavLink href="https://github.com/reactstrap/reactstrap">SHOP CHIROFOAM</NavLink>
+				  <NavLink href="/shop-chirofoam">SHOP CHIROFOAM</NavLink>
 				</NavItem>           
 			  </Nav>
 			</Collapse>
