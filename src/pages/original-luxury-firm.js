@@ -3,6 +3,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import {Container, Row, Col, Button, Media} from 'reactstrap';
 import "../assets/css/bootstrap.min.css"
+import "../assets/css/mycss.css"
 import O_img1 from "../assets/img/home4.png"
 import O_img2 from "../assets/img/home5.png"
 import O_img3 from "../assets/img/home6.png"
@@ -22,6 +23,18 @@ import us from "../assets/img/us.png"
 import eco from "../assets/img/eco.png"
 import confidence from "../assets/img/confidence.png"
 
+import ol1 from "../assets/img/ol1.jpg"
+import ol2 from "../assets/img/ol2.jpg"
+import ol3 from "../assets/img/ol3.jpg"
+import ol4 from "../assets/img/ol4.jpg"
+import ol5 from "../assets/img/ol5.jpg"
+import ol6 from "../assets/img/ol6.jpg"
+import ol7 from "../assets/img/ol7.jpg"
+import ol8 from "../assets/img/ol8.jpg"
+import ol9 from "../assets/img/ol9.jpg"
+
+
+
 
 export default (props) => {
   return (
@@ -34,40 +47,40 @@ export default (props) => {
 						<img src={product1} alt="Product1" width="100%" />
 						<div className="row row-cols-5 px-5 mt-5">
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={product1} alt="Product1" width="100%" height="100%"/>
+								<img src={ol1} alt="ol1" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={product2} alt="Product2" width="100%" height="100%"/>
+								<img src={ol2} alt="ol2" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={mattress1} alt="mattress1" width="100%" height="100%" />
+								<img src={ol3} alt="ol3" width="85px" height="100%" />
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={mattress1} alt="mattress1" width="100%" height="100%"/>
+								<img src={ol4} alt="ol4" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={O_img1} alt="O_img1" width="100%" height="100%"/>
+								<img src={ol5} alt="ol5" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={O_img2} alt="O_img2" width="100%" height="100%"/>
+								<img src={ol6} alt="ol6" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={O_img3} alt="O_img3" width="100%" height="100%"/>
+								<img src={ol7} alt="ol7" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={product1} alt="Product1" width="100%"height="100%" />
+								<img src={ol8} alt="ol8" width="85px" height="100%" />
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={product2} alt="Product2" width="100%" height="100%"/>
+								<img src={ol9} alt="ol9" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={mattress1} alt="mattress1" width="100%" height="100%"/>
+								<img src={ol1} alt="ol1" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={mattress1} alt="mattress1" width="100%" height="100%"/>
+								<img src={ol2} alt="ol2" width="85px" height="100%"/>
 							</Media>
 							<Media style={{width:'18%', height:'85px'}} className="mx-1 mb-1 overflow-hidden">
-								<img src={O_img1} alt="O_img1" width="100%" height="100%"/>
+								<img src={ol3} alt="ol3" width="85px" height="100%" />
 							</Media>
 						</div>
 					</Col>
@@ -196,17 +209,14 @@ export default (props) => {
 				</Row>
 			</Container>
 		</section>
-		<section className="mt-4 mb-0 py-4" style={{backgroundColor: '#243C69'}}>
+		<section className="mt-4 py-5 max-support bg-image">
 			<Container>
 				<Row className="">
-					<Col sm="4" className="position-relative" style={{zIndex:'9'}}>
-						<h2 className="display-2 font-weight-bold text-white py-5">MAX SUPPORT MAX RESULTS</h2>
+					<Col sm="4">
+						<h2 className="display-3 font-weight-bold text-white">MAX SUPPORT MAX RESULTS</h2>
 						<p className="text-white">
 							<Button color="primary">CALL TO ACTION</Button>
 						</p>
-					</Col>
-					<Col sm="8">
-						<img src={mattress2} alt="Mattress1" width="100%"/>
 					</Col>
 				</Row>
 			</Container>

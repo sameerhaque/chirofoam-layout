@@ -182,17 +182,15 @@ export default (props) => {
 				</Row>
 			</Container>
 		</section>
-		<section style={{position:'relative'}}>
-			<img src={O_img2} alt="O_img2" width="100%" height="100%" className="position-absolute"/>
-			<div style={{backgroundColor:'rgba(17,51,132,0.8)', position:'relative',zIndex:'9'}}>
+		<section className="rating bg-image">
+			<div className="card-layer"></div>
 			<Container>
 				<Row>
-					<div style={{paddingTop:'200px',paddingBottom:'200px'}}>
+					<div className="position-absolute card-content">
 						<h4 className="px-5 text-center text-white" style={{fontWeight:'700', lineHeight:'45px', fontSize:'32px'}}>4 OUT OF 5 CONSUMERS SERVEYED SAID CHIROFOAM<sup>TM</sup> IS MORE COMFORTABLE COMPARED TO OTHER COMFORTABLE BEST SELLING MATTRESS BRANDS.</h4>
 					</div>
 				</Row>
 			</Container>
-			</div>
 		</section>
 		<Footer />
 	</>

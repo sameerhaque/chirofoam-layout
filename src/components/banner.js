@@ -3,7 +3,7 @@ import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import "../assets/css/bootstrap.min.css"
 
 const Banner = () => (
-	<Jumbotron style={{ backgroundColor: '#151F40', borderRadius: '0', color: '#fff' }}>
+	<Jumbotron className="home-banner bg-image" style={{borderRadius: '0', color: '#fff' }}>
 		<Row>
 			<Col md="6">
 			

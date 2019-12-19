@@ -4,13 +4,10 @@ import Footer from "../components/footer"
 import Banner from "../components/banner-shop-chirofoam"
 import {Container, Row, Col, Button, Media} from 'reactstrap';
 import "../assets/css/bootstrap.min.css"
-import O_img1 from "../assets/img/home4.png"
-import O_img2 from "../assets/img/home5.png"
-import O_img3 from "../assets/img/home6.png"
 import product1 from "../assets/img/product1.jpg"
 import product2 from "../assets/img/product2.jpg"
 import mattress1 from "../assets/img/mattress1.jpg"
-import mattress3 from "../assets/img/mattress3.jpg"
+import run from "../assets/img/run.png"
 
 
 export default (props) => {
@@ -20,23 +17,20 @@ export default (props) => {
 		<Banner/>
 		<section className="mt-4 mb py-4" style={{backgroundColor:'#fff'}}>
 				<Row className="no-gutters">
-					<Col sm="4" style={{height:'225px'}} className="position-relative overflow-hidden">
-						<img src={O_img1} alt="shop_banner" width="100%" height="auto"/>
-							<div className="position-absolute" style={{backgroundColor: 'rgba(6, 29, 75, 0.8)', width:'100%', height:'100%', top:'0'}}>
-								<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>AENEAN SEMPER EST URNA</span>
-							</div>
+					<Col sm="4" className="card1 bg-image">
+						<div className="card-layer">
+							<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>AENEAN SEMPER EST URNA</span>
+						</div>
 					</Col>
-					<Col sm="4" style={{height:'225px'}} className="position-relative overflow-hidden">
-						<img src={O_img2} alt="shop_banner" width="100%" height="auto"/>
-							<div className="position-absolute" style={{backgroundColor: 'rgba(6, 29, 75, 0.8)', width:'100%', height:'100%', top:'0'}}>
-									<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>SIT AMET GRAVIDA TORTO</span>
-								</div>
+					<Col sm="4" className="card2 bg-image">
+						<div className="card-layer">
+							<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>SIT AMET GRAVIDA TORTO</span>
+						</div>
 					</Col>
-					<Col sm="4" style={{height:'225px'}} className="position-relative overflow-hidden">
-						<img src={O_img3} alt="shop_banner" width="100%" height="auto"/>
-							<div className="position-absolute" style={{backgroundColor: 'rgba(6, 29, 75, 0.8)', width:'100%', height:'100%', top:'0'}}>
-									<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>DONEC EROS EX</span>
-								</div>
+					<Col sm="4" className="card3 bg-image">
+						<div className="card-layer">
+							<span style={{position:'absolute', top:'50%', left:'0', right:'0', color:'#fff', textAlign:'center', fontWeight:'600'}}>DONEC EROS EX</span>
+						</div>
 					</Col>
 				</Row>
 		</section>
@@ -71,11 +65,11 @@ export default (props) => {
 				</Row>
 			</Container>
 		</section>
-		<section className="mt-4 mb-4 py-5" style={{backgroundColor:'#182951'}}>
+		<section className="mt-4 mb-4 py-5 approved bg-image">
 			<Container>
 				<Row>
 					<Col sm="4" className="align-middle">
-						<img src={mattress3} alt="Mattress3" width="100%"/>
+						<img src={run} alt="run" width="70%"/>
 					</Col>
 					<Col sm="8">
 						<div className="text-white mb-4 mt-4 pt-3 pl-3">

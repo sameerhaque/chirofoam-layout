@@ -9,6 +9,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import { Link } from "gatsby"
 import "../assets/css/bootstrap.min.css"
 import logo from "../assets/img/logo.png"
 
