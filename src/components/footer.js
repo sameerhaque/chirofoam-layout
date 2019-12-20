@@ -16,7 +16,7 @@ const Footer = () => (
 		<Container>
 			<Row>
 				<Col md="3">
-					<strong style={{letterSpacing:'1px'}}>CONNECT WITH US</strong>
+					<strong className="jersey space-2">CONNECT WITH US</strong>
 					<ul style={{
 						listStyle:'none',
 						display:'flex',
@@ -48,12 +48,12 @@ const Footer = () => (
 						paddingLeft:'40px',
 						paddingTop:'0px'
 					}} >
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Charity</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Our Story</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Chiropractor Recommended</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Customer Service</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Locations</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Frequently Asked Questions</Link></li>
+						<li className="mr-2 pb-3"><Link to="./charity" style={{color:'#b2b2b2',fontSize:'12px'}}>Charity</Link></li>
+						<li className="mr-2 pb-3"><Link to="./our-story" style={{color:'#b2b2b2',fontSize:'12px'}}>Our Story</Link></li>
+						<li className="mr-2 pb-3"><Link to="./chiropractor-recommended" style={{color:'#b2b2b2',fontSize:'12px'}}>Chiropractor Recommended</Link></li>
+						<li className="mr-2 pb-3"><Link to="./customer-service" style={{color:'#b2b2b2',fontSize:'12px'}}>Customer Service</Link></li>
+						<li className="mr-2 pb-3"><Link to="./locations" style={{color:'#b2b2b2',fontSize:'12px'}}>Locations</Link></li>
+						<li className="mr-2 pb-3"><Link to="./faq" style={{color:'#b2b2b2',fontSize:'12px'}}>Frequently Asked Questions</Link></li>
 					</ul>
 				</Col>
 				<Col md="3">
@@ -62,12 +62,12 @@ const Footer = () => (
 						paddingLeft:'40px',
 						paddingTop:'0px'
 					}} >
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Mattress Sizes</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Return Policy</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Warranty</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Privacy Policy</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Terms And Conditions</Link></li>
-						<li className="mr-2 pb-3"><Link to="/" style={{color:'#b2b2b2',fontSize:'12px'}}>Blog</Link></li>
+						<li className="mr-2 pb-3"><Link to="./mattress-sizes" style={{color:'#b2b2b2',fontSize:'12px'}}>Mattress Sizes</Link></li>
+						<li className="mr-2 pb-3"><Link to="./return-policy" style={{color:'#b2b2b2',fontSize:'12px'}}>Return Policy</Link></li>
+						<li className="mr-2 pb-3"><Link to="./warranty" style={{color:'#b2b2b2',fontSize:'12px'}}>Warranty</Link></li>
+						<li className="mr-2 pb-3"><Link to="./privacy-policy" style={{color:'#b2b2b2',fontSize:'12px'}}>Privacy Policy</Link></li>
+						<li className="mr-2 pb-3"><Link to="./term-and-conditions" style={{color:'#b2b2b2',fontSize:'12px'}}>Terms And Conditions</Link></li>
+						<li className="mr-2 pb-3"><Link to="./blogs" style={{color:'#b2b2b2',fontSize:'12px'}}>Blog</Link></li>
 					</ul>
 				</Col>
 			</Row>

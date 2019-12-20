@@ -5,15 +5,13 @@
  */
 
 module.exports = {
-    plugins: [
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
+  plugins: [
+    ...{
+      resolve: "gatsby-source-filesystem",
       options: {
-        google: {
-          families: ['Droid Sans', 'Droid Serif', 'Lato']
-        }
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
       }
     }
-    
   ]
-}
+};

@@ -5,6 +5,24 @@ body{
 a{
 	text-decoration:none !important;
 }
+.space-1{
+	letter-spacing:1px;
+}
+.space-2{
+	letter-spacing:2px;
+}
+.space-3{
+	letter-spacing:3px;
+}
+.space-4{
+	letter-spacing:4px;
+}
+.space-5{
+	letter-spacing:5px;
+}
+.display-5{
+	font-size:2rem;
+}
 .bg-image{
 	width:100%;
 	background-size:cover;

@@ -9,8 +9,6 @@ import O_img3 from "../assets/img/home6.png"
 import product1 from "../assets/img/product1.jpg"
 import product2 from "../assets/img/product2.jpg"
 import mattress1 from "../assets/img/mattress1.jpg"
-import mattress2 from "../assets/img/mattress2.jpg"
-import mattress3 from "../assets/img/mattress3.jpg"
 import warranty from "../assets/img/waranty.png"
 import van from "../assets/img/van.png"
 import box from "../assets/img/box.png"
@@ -18,9 +16,6 @@ import icon1 from "../assets/img/ic1.png"
 import icon2 from "../assets/img/ic2.png"
 import icon3 from "../assets/img/ic3.png"
 import icon4 from "../assets/img/ic4.png"
-import us from "../assets/img/us.png"
-import eco from "../assets/img/eco.png"
-import confidence from "../assets/img/confidence.png"
 
 
 export default (props) => {

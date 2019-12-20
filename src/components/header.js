@@ -9,7 +9,6 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import { Link } from "gatsby"
 import "../assets/css/bootstrap.min.css"
 import logo from "../assets/img/logo.png"
 
@@ -33,10 +32,10 @@ const Header = (props) => {
 				  <NavLink href="/xf-extra-firm/">XF EXTRA FIRM</NavLink>
 				</NavItem>
 				<NavItem>
-				  <NavLink href="https://github.com/reactstrap/reactstrap">OUR GUARENTEES</NavLink>
+				  <NavLink href="/our-guarentees">OUR GUARENTEES</NavLink>
 				</NavItem>
 				<NavItem>
-				  <NavLink href="https://github.com/reactstrap/reactstrap">REVIEWS</NavLink>
+				  <NavLink href="/reviews">REVIEWS</NavLink>
 				</NavItem>
 				<NavItem>
 				  <NavLink href="/shop-chirofoam">SHOP CHIROFOAM</NavLink>
