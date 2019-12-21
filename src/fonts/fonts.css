@@ -59,14 +59,6 @@ font-display:auto;font-style:normal;font-weight:400;
 .tk-erbaum { font-family: "erbaum",sans-serif; }
 
 
-
-@font-face {
-  font-family:'Jersey';
-  src: url('JerseyM54.eot?#iefix') format('embedded-opentype'),  url('JerseyM54.woff') format('woff'), url('JerseyM54.ttf')  format('truetype'), url('JerseyM54.svg#JerseyM54') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'PN-EB';
   src: url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),  url('ProximaNova-Extrabld.otf')  format('opentype'),
@@ -129,9 +121,6 @@ font-display:auto;font-style:normal;font-weight:400;
 .filson-soft-bold{
   font-family:'filson-soft',sans-serif;
   font-weight:700 !important;
-}
-.jersey{
-	font-family:'Jersey';
 }
 .proxima-eb{
 	font-family:'PN-EB';
