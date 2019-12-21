@@ -5,5 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/assets/css/mycss.css"
+import "./src/assets/css/custom.css"
+import "./src/assets/css/font-awesome.min.css"
 import "./src/fonts//fonts.css"

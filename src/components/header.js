@@ -24,7 +24,7 @@ const Header = (props) => {
 			<NavbarBrand href="/"><img src={logo} alt="Chirofoam"/></NavbarBrand>
 			<NavbarToggler onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
-			  <Nav className="mr-auto ml-auto" navbar>
+			  <Nav className="mr-0 ml-auto" navbar>
 				<NavItem>
 				  <NavLink href="/original-luxury-firm/">ORIGINAL LUXURY FIRM</NavLink>
 				</NavItem>

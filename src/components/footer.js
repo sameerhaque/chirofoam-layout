@@ -14,9 +14,9 @@ import blank from "../assets/img/blank.png"
 const Footer = () => (
 	<footer className="footer py-5" style={{ backgroundColor: '#243b6a', borderRadius: '0', color: '#fff' }}>
 		<Container>
-			<Row>
+			<Row className="proxima-r">
 				<Col md="3">
-					<strong className="jersey space-2">CONNECT WITH US</strong>
+					<strong className="erbaum-bold">CONNECT WITH US</strong>
 					<ul style={{
 						listStyle:'none',
 						display:'flex',

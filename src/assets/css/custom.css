@@ -5,6 +5,34 @@ body{
 a{
 	text-decoration:none !important;
 }
+.extra-link i {
+    vertical-align: top;
+}
+.cta a i{
+	vertical-align:top;
+}
+.ic1 {
+    font-size: 26px !important;
+    color:#cacaca !important;
+    padding-left: 5px;
+}
+.ic2 {
+    font-size: 26px !important;
+    color:#9F9F9F !important;
+    padding-left:10px;
+}
+.ic3 {
+    font-size:26px !important;
+    color:#3D5484 !important;
+    padding-left:10px;
+}
+.nav-link{
+	font-size:14px;
+	font-family:'PN-SB';
+}
+.nav-link:hover{
+	color:#243B6B !important;
+}
 .space-1{
 	letter-spacing:1px;
 }
@@ -28,10 +56,12 @@ a{
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:cover;
 }
 .color-primary{
-	color:#243B6B;
+	color:#243B6B !important;
+}
+.bg-primary{
+	background-color:#243B6B;
 }
 .lead-text-font{
 	font-size:30px;
@@ -46,6 +76,7 @@ a{
 	position:relative;
 	height:400px;
 	transition:all ease 0.3s;
+	opacity:0.8;
 }
 .card-layer{
 	background-color:rgba(3, 40, 80,0.9);
@@ -53,12 +84,12 @@ a{
 	width:100%;
 	position:absolute;
 	top:0;
-	z-index:1;
 }
 
 .card-bg:hover{
 	transform:scale(1.3);
 	z-index:9;
+	opacity:1;
 }
 .max-support{
 	background-image:url('../img/result.jpg');
@@ -92,5 +123,18 @@ a{
     top: 50%;
     transform: translate(-0%, -50%);
     z-index: 9;
+    left:0;
+    right:0;
+    max-width:900px;
+    margin:0px auto;
 }
 /*xf-extra-firm-page-css-end*/
+
+/*original-luxury-firm-page-css*/
+.feature{
+	background-image:url('../img/home5.png');
+	position:relative;
+}
+
+
+/*original-luxury-firm-page-css-end*/
